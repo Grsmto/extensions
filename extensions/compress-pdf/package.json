@@ -22,11 +22,20 @@
   "preferences": [
     {
       "name": "api_key",
-      "type": "password",
-      "required": true,
+      "type": "textfield",
+      "required": false,
       "title": "API key",
       "description": "Get your API key at cloudconvert.com",
       "placeholder": "Get your API key at cloudconvert.com"
+    },
+    {
+      "name": "ghostscript_path",
+      "type": "textfield",
+      "required": false,
+      "default": "/usr/local/bin/gs",
+      "title": "Ghostscript bin path",
+      "description": "Path of the Ghostscript executable",
+      "placeholder": "/usr/local/bin/gs"
     }
   ],
   "dependencies": {
